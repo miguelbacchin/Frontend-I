@@ -18,29 +18,21 @@
 
     #logo {
         height: 100%;
-        padding-left: 80px;
+        padding-left: 380px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-    main {
-        position: relative;
-        margin: 20px;
-        padding: auto;
+    .form-box {
+        background-color: rgb(223, 220, 220);
+        width:  50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 
-    .formularios-bg {
-        position: absolute
-        box-sizing: border-box;
-        background-color: black;
-        width: 400px;
-        height: 500px;
-        border-radius: 15px;
-        margin-left: 70px; 
-    }
-
-    .form-1 {
-        color: #333333;
-        
+    .div {
+        margin: 10px;
         
     }

@@ -6,7 +6,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
+    <div class = "form-box">
     <header> 
         <img id="logo"
    src="https://www.digitalhouse.com/ar/logo-dh-blanco.png" alt="Logo">
@@ -14,18 +14,24 @@
 
     <main>
         <article class="formularios-bg"></article>
-        <div class = "form-1">
-            <ul>
-            <form action="/registro" method="post">
-                    <dl><strong><label for = "nome">Nome:</label></dl>
-                    <input type = "text" name = "nome" id = "nome">
-                    <dl><label for = "nome">Sobrenome:</label></dl>
-                    <input type = "text" name = "sobrenome" id = "sobrenome">
-                    <dl><label for = "email">Email:</label></strong></dl>
-                    <input type = "email" name = "email" id = "email">            
+                    <form action="/registro" method="post">
+                    <div>
+                        <label for = "nome">Nome:</label>
+                        <input type = "text" name = "nome" id = "nome">
+                    </div>
+            
+                    <div>
+                        <label for = "nome">Sobrenome:</label>
+                        <input type = "text" name = "sobrenome" id = "sobrenome">
+                    </div>
+                    <div>
+                        <label for = "email">Email:</label></strong>
+                        <input type = "email" name = "email" id = "email">
+                    </div>            
             </form>
-            </ul>
+            
         </div>
+    </div>
         
 
     </main>
@@ -59,6 +65,7 @@
     <form action = "/curso" method = "GET">
         <label>Escolha um curso:</label>
             <select name = "curso">
+                <option value = "0">Selecione uma opção</option>
                 <option value = "data analytics">Data Analytics</option>
                 <option value = "data science">Data Science</option>
                 <option value = "cyber security">Cyber Security</option>
