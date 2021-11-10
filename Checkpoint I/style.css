@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
   }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -22,55 +22,50 @@
 }
 
 .cabecalho {
-
-  width: 100%;
-  background-color: rgb(67, 168, 214);
-  position:fixed;
-  padding: 0 13px;
-  box-sizing: border-box;
-  
+   width: 100%;
+   background-color: rgb(67, 168, 214);
+   position: relative;
+   padding: 0 13px;
+   box-sizing: border-box;
 }
 
 h1 {
-  
-  color: white;
-  text-align: center;
-  font-family: 'Rajdhani';
-  font-size: 35px;
-  padding-top: 10px;
+   color: white;
+   text-align: center;
+   font-family: 'Rajdhani';
+   font-size: 35px;
+   padding-top: 10px;
 }
 
 main {
-  position: relative;
-  top: 100px;
-  margin: 20px;
-  padding: auto;
-  
+   position: relative;
+   margin: 20px;
+   padding: auto;
 }
+
 .textos {
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-  color:aliceblue;
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+   color:aliceblue;
 }
 
 iframe {
-  position: relative;
-  padding: auto;
-  margin: 20px;
+   position: relative;
+   padding: auto;
+   margin: 20px;
 }
 
 footer {
-
-  top: 90px;
-  height: 100%;
-  position: relative;
-  margin: 30px;
-  padding: 0 550px 10px;
-  box-sizing: border-box;
+   top: 90px;
+   height: 100%;
+   position: relative;
+   margin: 30px;
+   padding: 0 550px 10px;
+   box-sizing: border-box;
 }
 
 footer img {
-  z-index: 5px;
-  height: 50px;
-  position: relative;  
+   z-index: 5px;
+   height: 50px;
+   position: relative;  
   }
