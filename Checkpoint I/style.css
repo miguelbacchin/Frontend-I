@@ -24,9 +24,8 @@
 .cabecalho {
 
   width: 100%;
-  text-align: center;
   background-color: rgb(67, 168, 214);
-  position:absolute;
+  position:fixed;
   padding: 0 13px;
   box-sizing: border-box;
   
