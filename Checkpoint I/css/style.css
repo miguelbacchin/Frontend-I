@@ -1,0 +1,91 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+.media-picture {
+   position: fixed;
+   top: 0%;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url('https://blog.vittaresidencial.com.br/wp-content/uploads/2020/07/Piracicaba-253-anos.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.cabecalho {
+   width: 100%;
+   background-color: rgb(67, 168, 214);
+   position: relative;
+   padding: 0 13px;
+   box-sizing: border-box;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   font-family: 'Rajdhani';
+   font-size: 35px;
+   padding-top: 10px;
+}
+
+main {
+   position: relative;
+   margin: 20px;
+   padding: auto;
+}
+
+.textos {
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+   color:aliceblue;
+   text-align: center;
+}
+
+h2 {
+   font-size: 30px;
+   font-family: 'Rajdhani';
+   text-shadow: 2px 2px black;
+   text-align: center;
+}
+
+ul {
+   color:white;
+   list-style: none;
+   background-color: rgb(67, 168, 214);
+   padding: 20px 50px;
+   text-align: center;
+}
+
+iframe {
+   position: relative;
+   padding: auto;
+   margin: 20px;
+}
+
+footer {
+   width: 100%;
+   background-color: rgb(67, 168, 214);
+   position: relative;
+   padding: 0 13px;
+   box-sizing: border-box;
+   top: 90px;
+   height: 100%;
+   position: relative;
+   padding: 0 630px 10px;
+   box-sizing: border-box;
+}
+
+footer img {
+   z-index: 5px;
+   height: 40px;
+   position: relative;  
+  }
