@@ -1,39 +1,69 @@
 * {
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif
 }
 
+header {
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+}
+
+header img {
+  float: left;
+}
+
+.logo {
+  width: 50px;
+  height: 60px;
+  max-width: 100%;
+  display: block;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  width: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(21, 85, 168)
+}
+
+.menu li {
+  float: left;
+  margin-right: 10px;
+}
+
+body{
+background-image: url(https://www.greenmebrasil.com/wp-content/uploads/2017/03/macarons-1200x900.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+h1 {
+
+  text-align: center;
+  font-size: 65px; 
+  font-family: 'Dancing Script', cursive;
+  color: rgb(9, 55, 94)
+}
+
+p {
+  font-size: 24px;
+  margin: 10px;
+  text-align: center;
+}
 
 .form_box {
-  background-color: rgb(223, 220, 220);
+  background-color: rgb(94, 162, 226);
   width:  50%;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
   border-radius: 16px;
-}
-
-input, textarea, select {
-  margin-bottom: 20px;
-}
-
-img {
-  width: 200px;
-}
-
-button {
-  height: 30px;
-  margin-bottom:  14px;
-  border-radius: 10px;
-}
-
-.cancel {
-  background-color: black
+  margin: 0 auto;
 }

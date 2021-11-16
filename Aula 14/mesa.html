@@ -3,44 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>MESA 13/GRUPO 6</title>
+    <title>Vendinha da Vovó Tetê</title>
     <link href="style2.css" rel="stylesheet" type="text/css" />
-  </head>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+    </style>
+ </head>
   <body>
-   
-   <div class="form_box">
-    <form action="" method="POST">
-    
-       <label for="name">Nome</label>
-      <input type="text" class="name">
-  
-     
-      <label for="opcao">Como nos conheceu?</label>
-      <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao">
+    <header class="header">
+      <img src="./logo.PNG" class="logo">
+      <nav>
+        <ul class="menu">
+          <li><a href"/"><strong>Home</strong></a></li>
+          <li><a href"/"><strong>Doces</strong></a></li>
+          <li><a href"/"><strong>Encomendas</strong></a></li>
+          <li><a href"/"><strong>Contato</strong></a></li>
+        </ul>
+      </nav>
+    </header>
 
-     <option value="opcao0" disable >Selecione o seu doce</option>   
-      <option value="opcao1">Brigadeiro</option>
-      <option value="opcao2">Facebook</option>
-      <option value="opcao3">Twitter</option
-      <option value="opcao3">Outro</option>
+    <h1>Doces Finos</h1>
+   <div class="form_box"> 
+   <div>
+        <p><strong>Selecione seu doce</strong></p>
+        <input type="checkbox" name="docesfinos" id="bombom-nozes" value="bombom-nozes" >
+        <label for="bombom-nozes">Bombom de nozes</label>
+    </div>
+    <div>
+        <input type="checkbox" name="docesfinos" id = "brigadeiro-amendoas"
+        value="brigadeiro-amendoas">
+        <label for="brigadeiro-amendoas">Brigadeiro de amêndoas</label>
+    </div>
+    <div>
+        <input type="checkbox" name="docesfinos" value="Camafeu" id="Camafeu">
+        <label for="Camafeu">Camafeu de nozes</label>
+    </div>
+    </div>
+      
 
-      <label for="mensagem">Escreva sua mensagem aqui.</label>
-        <textarea name="opinion" id="opinion" cols="20" rows="10" placeholder="Deixe sua opniao"></textarea>
-
-      <button type="submit">Enviar</button>
-      <button type="reset">Resetar</button>
-  
-
-    </form>
-   </div>
-
-   <div class="form_box">
-     
-   </div>
-
-
-
-  
-    <script src="script.js"></script>
-  </body>
 </html>
