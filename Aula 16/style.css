@@ -24,6 +24,35 @@ a:active {
 }
 
 /* Os inputs são outro tipo de elemento que tenham pseudo-classes */
+
+/* Aplica quando um elemento recebe o foco, ou seja, quando o usuário clica nesse elemento */
 input:focus {border-color: orange;}
 
-input:disable
+/* Aplica quando um elemento pode ser considerado como desabilitado */
+input:disabled {background-color: gray;}
+
+/*  */
+:target {font-weight: bold;}
+
+/* nome do seletor seguido de dois pontos duplo "::" e a pseudo-elemento que queremos utilizar */
+
+/* Utilizado junto a propriedade content para introduzir conteúdo no documento utilizando CSS
+Esse novo conteúdo aparecerá antes do conteúdo interno do elemento */
+div::before {
+    content: "Esse aparecerá antes do conteúdo do elemento";
+    color: red;
+}
+
+/* Esse novo conteúdo aparecerá antes do conteúdo interno do elemento */
+div::after {
+    content: "Esse aparecerá depois do conteúdo do elemento";
+    color: red;
+}
+
+/* Ordem geral da sintaxe do CSS */
+selector #id .class :pseudo-classe ::pseudo-elemento [atributo]
+{
+    propriedade: valor;
+    propriedade: valor;
+    propriedade: valor;
+}
