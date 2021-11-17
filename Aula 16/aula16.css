@@ -71,5 +71,19 @@ li:nth-child(1) {
     background-color: red;
 }
 
-/*  */
-< input type = "text" required >
+/* Quando está presente, o required impede que o formulário seja enviado caso o campo que tem esse atributo não tenha sido preenchido pelo usuário.
+*Nota: O required funciona com os seguintes tipos de entrada: text, search, url, tel, email, password, date pickers, number, checkbox, radio e file
+ */
+html < input type = "text" required >
+
+/* A pseudo-classe :valid do CSS representa qualquer elemento <input> ou outro elemento do <form> cujo conteúdo se validou corretamente. Isso permite que os campos válidos adquiram facilmente uma aparência que ajuda o usuário a confirmar que seus dados foram inseridos corretamente.
+ */
+input:valid {
+    background-color: green;
+}
+
+/* Se aplica quando um elemento está desabilitado. Quando algum elemento por algum motivo não pode ser acessado, colocamos: disabled.
+Normalmente, se utiliza para dar estilos aos campos que os usuários não podem completar no formulário, ou simplesmente quando uma opção está desativada. */
+input:disabled {
+    background-color: gray;
+}
