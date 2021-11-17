@@ -15,7 +15,15 @@ a:visited {
     font-weight: bold;
 }
 
+/* Aplicar estilo a qualquer elemento que o usuário posicione o cursor */
 a:hover,
+
+/* Aplicar estilo aos links que estão sendo clicados pelo usuário */
 a:active {
     color:rgb(136, 11, 74);
 }
+
+/* Os inputs são outro tipo de elemento que tenham pseudo-classes */
+input:focus {border-color: orange;}
+
+input:disable
