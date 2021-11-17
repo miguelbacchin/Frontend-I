@@ -1,0 +1,21 @@
+
+/* nome do seletor seguido de dois pontos ":" e a pseudo-classe que queremos utilizar */
+selector:pseudo-classe {
+    propriedade: valor;
+}
+
+/* Os links são elementos que tem pseudo-classes específicas. Neste caso: :link, :visited, :hover, :active */
+
+/* Aplicar estilo aos links que tenham propriedade href */
+a:link,
+
+/* Aplicar estilo aos links que já tenham sido visitados pelo menos uma vez pelo usuário href */
+a:visited {
+    color: rgb(98, 8, 194);
+    font-weight: bold;
+}
+
+a:hover,
+a:active {
+    color:rgb(136, 11, 74);
+}
