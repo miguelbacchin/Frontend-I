@@ -56,3 +56,20 @@ selector #id .class :pseudo-classe ::pseudo-elemento [atributo]
     propriedade: valor;
     propriedade: valor;
 }
+
+/* invalid estiliza o input do elemento form cujos conteúdos não foram inseridos corretamente ou não foram validados */
+input:invalid {
+    background-color: red;
+}
+
+/* Coincide com um ou mais elementos em função da sua posição dentro de um grupo de elementos-irmãos.
+
+Logo, a pseudo-classe :nth-child(nº do elemento escolhido) realiza a função de escolher por ordem apenas um (ou alguns) elemento(s) entre vários elementos iguais ou de classe iguais. Por exemplo: foi escolhido o primeiro li.
+ */
+li:nth-child(1) {
+    border-radius: 5px;
+    background-color: red;
+}
+
+/*  */
+< input type = "text" required >
