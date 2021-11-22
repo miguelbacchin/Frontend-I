@@ -5,8 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
-button {
-    background-color: #eaeaea;
-    color: #000;
+.media-picture {
+    background-image: url('https://www.digitalhouse.com/logo-DH.png');
 }
+
+/* button {
+    background-color: #1a73e8;
+    color: #fff;
+    transition: all 0.5s
+} */
