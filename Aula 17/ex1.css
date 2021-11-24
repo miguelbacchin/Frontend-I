@@ -1,11 +1,24 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.bola {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 50%;
+  animation: bola 3s infinite;
+  position: relative;
 }
 
 @keyframes bola {
-    0% { opacity: 0%; };
-    25% { transform: translateY(-20px); opacity: 100%; }
-    100% { opacity: 0%; }
+  0%   {left: 0px; opacity: 0;}
+  100% {left: 500px;}
 }
