@@ -1,44 +1,37 @@
 <!DOCTYPE html>
-<html lang = "pt-br">
+<html lang="en">
 <head>
-    <meta charset = "UTF-8">
-    <title>Conheça Piracicaba</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exemplo de formulário</title>
     <link rel = "stylesheet" href = "style.css">
-    <header>
-
-    </header>
-    <body>
-    <main>
-        <div class="cadastro">
-        <form action = "registrar" method = "POST"></form>
+</head>
+<body>
+    <main class="container">
         <h2>Dados cadastrais</h2>
-        
-        <div class="nome">
-            <label for = "nome">Nome*: </label>
-                <input type = "text" placeholder = "João" name = "nome" required = "required" id = "nome">
+        <form action="">
+        <div class="input-field">
+           <input type="text" name="username" required = "required" id="username" placeholder="Insira o seu nome*">
+           <div class="underline"></div> 
         </div>
-        <div class="phone">
-            <label for = "phone">Telefone*: </label>
-                <input type = "number" placeholder = "Apenas números"name = "Telefone" required = "required" id = "phone">
+        <div class="input-field">
+            <input type = "number" name = "Telefone" required = "required" id = "phone" placeholder = "Insira o seu telefone*">
+            <div class="underline"></div>
         </div>
-        <div class="data">
-            <label for = "date">Data*: </label>
-                <input type = "date" name = "Data" min = "1900-01-01" max ="2022-12-31" required = "required" id = "date">
+        <div class="date">
+            <input type="date" name="date" required = "required" id="date" placeholder="Enter your password">
         </div>
-
-        <div class="radio">
+        <div class="radio-button">
             <p>Você tem mais de 18 anos? *</p>
                 <input type = "radio" name="idade" value = "TO">
                 <label for = "idade">Sim</label>
-                
-        </div>
-        <div class="radio">
                 <input type = "radio" name="idade" value = "TO">
                 <label for = "idade">Não</label>
         </div>
         <div>
             <label for="opcao">Selecione um ponto de interesse turístico de Piracicaba *</label>
         </div>
+        <div>
             <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao" required = "required">
                 <option value="opcao0" disable >Selecione uma opção</option>   
                 <option value="opcao1">Parque da Rua do Porto</option>
@@ -46,6 +39,7 @@
                 <option value="opcao3">Teatro do Engenho</option>
                 <option value="opcao3">Aquário Municipal de Piracicaba</option>
             </select>
+        </div>
         <p>Quais são os seus interesses (selecione quantas opções forem necessárias)?</p>
         <div>
             <input type = "checkbox" name="interesse" value = "turista">
@@ -59,23 +53,16 @@
             <input type = "checkbox" name="interesse" value = "estudante">
             <label for = "estudante">Estudante</label>
         </div>
-        <a href= "#" class="botao-login">
-            Enviar
-        </a>
         <a href = "#" class="botao-cancelar">
             Cancelar
         </a>
-
-
-        </div>
+        <a href= "#" class="botao-login">
+            Enviar
+        </a>
     </form>
+
+
+    
     </main>
-    </body>
-        
-
-    <footer>
-
-    </footer>
-
-</head>
+</body>
 </html>
