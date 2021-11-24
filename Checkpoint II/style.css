@@ -28,8 +28,6 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 15px;
-    
-    
 }
 
 form {
@@ -77,8 +75,26 @@ main h2 {
     font-weight: bold;
     text-align: left;
     padding: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
+}
+
+.opcao {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.selecione {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 .botao-login {
@@ -86,12 +102,13 @@ main h2 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Rajdhani';
-    font-size: 15px;
+    font-family: 'Poppins';
+    font-size: 20px;
     background-color: #2d90e2;
     color: white;
     padding: 5px 10px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -102,7 +119,7 @@ main h2 {
 
 .botao-login:hover {
     background: linear-gradient(45deg, #2d90e2, #4a00e0);
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 5px 10px;
     margin-right: 20px;
     font-size: 20px;
@@ -111,13 +128,14 @@ main h2 {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Rajdhani';
-    font-size: 15px;
+    font-family: 'Poppins';
+    font-size: 20px;
     font-weight: bold;
     background-color: rgb(143, 143, 143);
     color: white;
     padding: 5px 10px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 10px;
     border-radius: 5px;
     border-width: 0px;
@@ -125,11 +143,9 @@ main h2 {
     transition-duration: 250ms;
 }
 
-.botao-cancelar:hover{
-    justify-content: space-between;
-    align-items: center;
+.botao-cancelar:hover {
     background-color: rgb(90, 90, 90);
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 5px 10px;
     margin-right: 20px;
     font-size: 20px;

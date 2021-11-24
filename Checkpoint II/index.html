@@ -27,25 +27,27 @@
         </div>
 
         <div class="radio">
-            <p><strong>Você tem mais de 18 anos? *</strong></p>
+            <p>Você tem mais de 18 anos? *</p>
                 <input type = "radio" name="idade" value = "TO">
                 <label for = "idade">Sim</label>
-                
         </div>
         <div class="radio">
                 <input type = "radio" name="idade" value = "TO">
                 <label for = "idade">Não</label>
         </div>
-        <div>
-            <label for="opcao">Selecione um ponto de interesse turístico de Piracicaba *</label>
+        <div class="opcao">
+            <label for="opcao">Selecione um ponto de interesse turístico de Piracicaba*:</label>
         </div>
-            <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao" required = "required">
+        <div class="select">
+            <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao" required = "required" id="selecione">
+            </div>
                 <option value="opcao0" disable >Selecione uma opção</option>   
                 <option value="opcao1">Parque da Rua do Porto</option>
                 <option value="opcao2">Estádio Barão de Serra Negra</option>
                 <option value="opcao3">Teatro do Engenho</option>
                 <option value="opcao3">Aquário Municipal de Piracicaba</option>
             </select>
+        
         <p>Quais são os seus interesses (selecione quantas opções forem necessárias)?</p>
         <div>
             <input type = "checkbox" name="interesse" value = "turista">
@@ -65,9 +67,8 @@
         <a href = "#" class="botao-cancelar">
             Cancelar
         </a>
-
-
         </div>
+  
     </form>
     </main>
     </body>
