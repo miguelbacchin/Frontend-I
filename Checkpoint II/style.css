@@ -52,7 +52,7 @@ main h2 {
     border: none;
 }
 
-.phone {
+.data {
     font-family: sans-serif;
     font-weight: bold;
     text-align: left;
@@ -61,7 +61,7 @@ main h2 {
     margin-left: 5px;
 }
 
-.data {
+.phone {
     font-family: sans-serif;
     font-weight: bold;
     text-align: left;
@@ -75,8 +75,16 @@ main h2 {
     font-weight: bold;
     text-align: left;
     padding: 5px;
+<<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 5px;
     margin-bottom: 5px;
+=======
+    margin-bottom: 20px;
+>>>>>>> parent of 465baad (.)
+=======
+    margin-bottom: 20px;
+>>>>>>> parent of 465baad (.)
     margin-left: 5px;
 }
 
