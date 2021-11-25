@@ -40,9 +40,23 @@
                 <input type = "radio" name="idade" value = "TO"> Não
             </label>
         </div>
+
+        <div class="campo">
+            <label id="subtitulo"><strong>Quais são os seus interesses (selecione quantas opções forem necessárias)?*</strong></label>
+            <label>
+                <input type = "checkbox" name="interesse" value = "turista"> Turista
+            </label>
+            <label>
+                <input type = "checkbox" name="interesse" value = "residente"> Residente
+            <label>
+                <input type = "checkbox" name="interesse" value = "estudante"> Estudante
+            </label>
+        </div>
+
         <div class="campo">
             <label for="opcao"><strong>Selecione um ponto de turístico de Piracicaba*:</strong></label>
         </div>
+        <div class="campo">
             <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao" required id="opcao">
                 <option value="opcao0" disable >Selecione uma opção</option>   
                 <option value="opcao1">Parque da Rua do Porto</option>
@@ -51,27 +65,16 @@
                 <option value="opcao3">Aquário Municipal de Piracicaba</option>
             </select>
         </div>
-    </fieldset>
-
-    <fieldset class="grupo">
-        <p id="subtitulo"><strong>Quais são os seus interesses (selecione quantas opções forem necessárias)?</strong></p>
-        <div class="check">
-            <input type = "checkbox" name="interesse" value = "turista">
-            <label for = "interesse">Turista</label>     
-            <input type = "checkbox" name="interesse" value = "residente">
-            <label for = "interesse">Residente</label>
-            <input type = "checkbox" name="interesse" value = "estudante">
-            <label for = "interesse">Estudante</label>
-        </div>
-    </fieldset>
-
-    <a href= "#" class="botao-login">
-        Enviar
-    </a>
-
-    <a href = "#" class="botao-cancelar">
-        Cancelar
-    </a>
+        
+        <a href= "#" class="botao-login">
+            Enviar
+        </a>
+    
+        <a href = "#" class="botao-cancelar">
+            Cancelar
+        </a>
+        
+        
 
     </form>
 </div>

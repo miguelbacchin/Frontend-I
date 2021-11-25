@@ -41,12 +41,15 @@ body {
 
 
 
-input, select, textarea, button {
+input, select, textarea, option {
     border-radius: 5px;
+    border: none;
+    background: #d7d8da;
 }
 
 .campo {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .campo label {
@@ -54,3 +57,6 @@ input, select, textarea, button {
     display: block;
 }
 
+.campo select option {
+    padding-right: 1em;
+}
