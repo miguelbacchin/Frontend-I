@@ -8,26 +8,73 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div>
-        <h1 id="titulo">Dados Cadastrais</h1>
-    </div>
+    <main>
+
+    <div class="cadastro">
     <form>
+        <div>
+            <h1 id="titulo">Dados Cadastrais</h1>
+        </div>
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome:*</strong></label>
-                <input type="text" name="nome" id="nome" required>
+                <input type="text" name="nome" id="nome" required placeholder=" João">
             </div>
 
             <div class="campo">
-                <label for = "phone">Telefone:*</label>
-                <input type = "number" placeholder = "Apenas números"name = "Telefone" required id = "phone">
+                <label for = "phone"><strong>Telefone:*</strong></label>
+                <input type = "number" placeholder = " Apenas números"name = "Telefone" required id = "phone">
             </div>
         </fieldset>
+        <fieldset class="grupo">
         <div class="campo">
-            <label for = "date">Data:*</label>
+            <label for = "date"><strong>Data:*</strong></label>
             <input type = "date" name = "Data" min = "1900-01-01" max ="2022-12-31" required id = "date">
         </div>
+        <div class="campo">
+            <label id="subtitulo"><strong>Você tem mais de 18 anos?*</strong></label>
+            <label>
+                <input type = "radio" name="idade" value = "TO"> Sim
+            </label>
+            <label>
+                <input type = "radio" name="idade" value = "TO"> Não
+            </label>
+        </div>
+        <div class="campo">
+            <label for="opcao"><strong>Selecione um ponto de turístico de Piracicaba*:</strong></label>
+        </div>
+            <select name="opcao" class="opcao" aria-placeholder="Selecione uma opcao" required id="opcao">
+                <option value="opcao0" disable >Selecione uma opção</option>   
+                <option value="opcao1">Parque da Rua do Porto</option>
+                <option value="opcao2">Estádio Barão de Serra Negra</option>
+                <option value="opcao3">Teatro do Engenho</option>
+                <option value="opcao3">Aquário Municipal de Piracicaba</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset class="grupo">
+        <p id="subtitulo"><strong>Quais são os seus interesses (selecione quantas opções forem necessárias)?</strong></p>
+        <div class="check">
+            <input type = "checkbox" name="interesse" value = "turista">
+            <label for = "interesse">Turista</label>     
+            <input type = "checkbox" name="interesse" value = "residente">
+            <label for = "interesse">Residente</label>
+            <input type = "checkbox" name="interesse" value = "estudante">
+            <label for = "interesse">Estudante</label>
+        </div>
+    </fieldset>
+
+    <a href= "#" class="botao-login">
+        Enviar
+    </a>
+
+    <a href = "#" class="botao-cancelar">
+        Cancelar
+    </a>
+
     </form>
+</div>
+</main>
 </body>
 </html>
