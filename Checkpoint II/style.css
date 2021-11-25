@@ -28,8 +28,6 @@ body {
     margin-top: 80px;
     margin-bottom: 20px;
     border-radius: 15px;
-    
-    
 }
 
 form {
@@ -69,11 +67,10 @@ main h2 {
 }
 
 .radio {
-    font-family: sans-serif;
     font-weight: bold;
+    font-family: sans-serif;
     text-align: left;
     padding: 5px;
-    margin-bottom: 5px;
 }
 
 .opcao {
@@ -82,6 +79,12 @@ main h2 {
     text-align: left;
     padding: 5px;
     margin-bottom: 10px;
+}
+
+.select {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 p {
@@ -96,6 +99,7 @@ p {
     font-weight: bold;
     text-align: left;
     padding: 5px;
+    margin-bottom: 20px;
 }
 
 .botao-login {
@@ -104,11 +108,13 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 20px;
     background-color: #2d90e2;
     color: white;
     padding: 5px 10px;
-    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border-width: 0px;
@@ -127,11 +133,13 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     background-color: rgb(143, 143, 143);
     color: white;
     padding: 5px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 10px;
     border-radius: 5px;
     border-width: 0px;
@@ -139,9 +147,7 @@ p {
     transition-duration: 250ms;
 }
 
-.botao-cancelar:hover{
-    justify-content: space-between;
-    align-items: center;
+.botao-cancelar:hover {
     background-color: rgb(90, 90, 90);
     border-radius: 25px;
     padding: 5px 10px;
