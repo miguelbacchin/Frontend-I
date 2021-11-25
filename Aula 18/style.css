@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #383838;
+    font-family: 'Roboto', sans-serif;
+    color: white;  
+  }
+  
+  header{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .logo{
+    padding: 0px 20px;
+    background-image: url(https://api.iconify.design/akar-icons/video.svg?color=red&width=40&height=40);
+    background-repeat: no-repeat;
+  }
+  
+  .logo::after{
+    background-color: url(https://api.iconify.design/akar-icons/video.svg?color=%23bbb9b9&width=40&height=40);
+  }
+  
+  .pai{
+      display: flex;
+      gap: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px;
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+  
+  .quadro:hover{
+    transform: scale(1.04);
+  }
+  
+  .quadro{
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  
+  h1{
+    padding: 0 10px;
+  }
+  
+   h4{
+     padding: 8px 0;
+     cursor: pointer;
+   }
+  
+   h4:hover {
+     color: yellow;
+   }
+   
+   p{
+     font-size: 14px;
+     color: rgb(213, 212, 212);
+     font-style: italic;
+   }
+   .quadro img{
+     border-width: 30px;
+     border-color:azure;
+     border-radius: 10px;
+   }
+  
+   footer{
+     width:100%;
+     background-color:greenyellow;
+     padding: 20px;
+     position: fixed;
+     bottom: 0;
+     color: black;
+     list-style: none;
+     }
+  
+     ul{
+        list-style: none;
+     }
+  
+  
