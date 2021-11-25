@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <h1 id="titulo">Dados Cadastrais</h1>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:*</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for = "phone">Telefone:*</label>
+                <input type = "number" placeholder = "Apenas números"name = "Telefone" required id = "phone">
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for = "date">Data:*</label>
+            <input type = "date" name = "Data" min = "1900-01-01" max ="2022-12-31" required id = "date">
+        </div>
+    </form>
+</body>
+</html>
