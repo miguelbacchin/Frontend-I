@@ -45,6 +45,7 @@ input, select, textarea, option {
     border-radius: 5px;
     border: none;
     background: #d7d8da;
+    font-size: 15px;
 }
 
 .campo {
@@ -60,3 +61,4 @@ input, select, textarea, option {
 .campo select option {
     padding-right: 1em;
 }
+
