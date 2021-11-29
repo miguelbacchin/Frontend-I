@@ -65,26 +65,3 @@ main .conteudo {
     border-radius: 10px;
     border: 1px solid white;
 }
-
-.lateral {
-    gap: 20px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-.quadro {
-    width: 200px;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: 1px solid white;
-}
-
-  .quadro img {
-    border-width: 30px;
-    border-color:azure;
-    border-radius: 10px;
-}
