@@ -46,14 +46,24 @@ h1 {
     text-align: left;
     margin-left: 80px;
     padding: 10px;
+}
 
+.conteudo{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    margin-right: 20px;
+    margin-left: 80px;
 }
 
 .principal {
     width: 850px;
     height: 400px;
-    margin-top: 50px;
-    margin-left: 80px;
+    margin-top: 40px;
     border-radius: 10px;
     border: 1px solid white;
 }
+
