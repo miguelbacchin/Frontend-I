@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.nft-card {
+    background-color: hsl(216, 50%, 16%);
+    width: 500px;
+}
+
+.nft-card > img {
+    width: 100%;
+}
+
+h1 {
+    color: hsl(0, 0, 100%)
+}
+
+p {
+    color: hsl(215, 32, 27%)
+}
