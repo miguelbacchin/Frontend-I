@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.card-branco {
+    background-color: hsl(225, 100%, 98%);
+    width: 400px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.card-branco > img {
+    width: 100%;
+    border-radius: 15px;
+}
