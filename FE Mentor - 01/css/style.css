@@ -27,7 +27,6 @@ body {
 h1 {
     color: hsl(223, 47%, 23%);
     margin-top: 25px;
-
     text-align: center;
     font-weight: 900;
     font-size: 24px;
@@ -42,7 +41,7 @@ h1 {
     font-size: 16px;
 }
 
-.plano {
+.card-plano {
     background-color: hsl(225, 100%, 98%);
     padding: 10px;
     margin-left: 30px;
@@ -50,3 +49,13 @@ h1 {
     border-radius: 15px;
 }
 
+.icone {
+}
+
+.titulo-plano {
+   
+}
+
+.preco-plano {
+    
+}
