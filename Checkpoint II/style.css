@@ -3,105 +3,74 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-   }
-
-body {
-    background: linear-gradient(45deg, #2d90e2, #4a00e0);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-        
 }
 
- .cadastro {
+.cadastro {
     background-color: rgb(238, 236, 236);
-    width:  30%;
+    width: 30%;
     padding: 20px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 15px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-main h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
+#titulo {
+    font-family: 'Poppins';
+    margin-bottom: 20px;
     text-align: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #2d90e2, #4a00e0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-top: 2%;
+
+}
+
+input,
+select,
+textarea,
+option {
+    border-radius: 5px;
+    border: none;
+    background: #d7d8da;
+    font-size: 15px;
+}
+
+.campo {
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.nome {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding: 5px;
-    margin-bottom: 20px;
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
 }
 
-.phone {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding: 5px;
-    margin-bottom: 20px;
+.campo select option {
+    padding-right: 1em;
 }
 
-.data {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding: 5px;
-    margin-bottom: 20px;
+.botao {
+    text-align: center;
 }
 
-.radio {
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: left;
-    padding: 5px;
-}
-
-.opcao {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-.select {
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-
-p {
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-
-.checkbox {
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding: 5px;
-}
-
-.botao-login {
+.botao-enviar {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -119,22 +88,24 @@ p {
     transition-duration: 250ms;
 }
 
-.botao-login:hover {
+.botao-enviar:hover {
     background: linear-gradient(45deg, #2d90e2, #4a00e0);
+    transform: scale(1.04);
     border-radius: 25px;
-    padding: 5px 10px;
-    font-size: 21px;
+    padding: 5px 150px;
+    font-size: 18px;
 }
- .botao-cancelar {
+
+.botao-cancelar {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     background-color: rgb(143, 143, 143);
     color: white;
-    padding: 5px 10px;
+    padding: 5px 138px;
     margin-top: 10px;
     border-radius: 10px;
     border-width: 0px;
@@ -143,9 +114,9 @@ p {
 }
 
 .botao-cancelar:hover {
-    background-color: rgb(90, 90, 90);
+    background: linear-gradient(45deg, #bebebe, #646464);
+    transform: scale(1.04);
     border-radius: 25px;
-    padding: 5px 10px;
-    font-size: 21px;
+    padding: 5px 133px;
+    font-size: 18px;
 }
-
