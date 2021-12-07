@@ -16,57 +16,26 @@ body {
     font-family: 'Rajdhani';
 }
 
-.img-fluid {
+
+.banner {
+    background-image: url(../images/miranha-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed
-}
-
-.wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
-
-main {
-    display: block;
-    background-color: white;
-}
-
-section.module.parallax {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh !important;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
-section.module.parallax:after{
-    content: "";
-    height: 100%; 
-    width: 100%;
-    position: absolute;
-    z-index: 8;
-    background: linear-gradient(to bottom, rgba(33,37,41,0) 0, rgba(33,37,41,0)35%, #212529 100%);
-}
 
-section.module.parallax-1 {
-    background-image: url("https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg");
-}
-
-section.module.parallax h1 {
+.titulo-1 {
     font-family: 'Rajdhani';
     font-weight: 700;
     text-align: center;
     color: #f9f6fc;
 }
 
-section.module p {
+.titulo-2 {
     font-family: 'Rajdhani';
     font-weight: 500;
     text-align: center;
@@ -75,7 +44,7 @@ section.module p {
     margin-bottom: 0;
 }
 
-.regua {
+/* .regua {
     display:block;
     padding:0;
     margin: 10px 0;
@@ -83,4 +52,4 @@ section.module p {
     height:2px;
     background: linear-gradient(45deg, #991eeb, #5822b4, #991eeb);
     align-self: center;
-}
+} */
