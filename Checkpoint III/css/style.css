@@ -59,7 +59,7 @@ section.module.parallax-1 {
     background-image: url("https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg");
 }
 
-section.module h1 {
+section.module.parallax h1 {
     font-family: 'Rajdhani';
     font-weight: 700;
     text-align: center;
@@ -72,4 +72,14 @@ section.module p {
     text-align: center;
     color: #f9f6fc;
     font-size: 30px;
+}
+
+.regua {
+    display:block;
+    padding:0;
+    margin: 10px 0;
+    width:20%;
+    height:2px;
+    background-color:#ddd;
+    ;
 }
