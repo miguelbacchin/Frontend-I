@@ -1,0 +1,22 @@
+.btn-large {
+    @extend .btn;
+    width: $largura-botao*2;
+    height: $altura-botao*2;
+    font-size: $tamanho-texto-botao*1.5;
+}
+
+@mixin btn-small {
+    width: $largura-botao/2;
+    height: $altura-botao/2;
+    font-size: $tamanho-texto-botao/2;
+    background-color: gray;
+    a {
+        background-color: blue;
+        color: white;  
+        text-decoration: none;
+    }
+}
+
+.btn-aside {
+    @include btn-small;
+}
