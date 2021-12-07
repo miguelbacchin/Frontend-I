@@ -80,3 +80,12 @@ section.module.parallax:after{
 
 section.module.parallax-1 {
     background-image: url("https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg");
+}
+
+section.module h1 {
+    @font-face {
+        font-family: ;
+        src: url('Gilroy-ExtraBold.otf') format ('opentype'), url('Gilroy-Light.otf');
+    }
+    text-align: center;
+}
