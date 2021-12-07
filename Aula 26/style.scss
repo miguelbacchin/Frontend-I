@@ -1,0 +1,11 @@
+$cor-principal: #800000;
+$cor-secundaria: magenta;
+$cor-terciaria: blueviolet;
+
+ul {
+    margin-bottom: 30px;
+    li {
+        list-style: bullet;
+        color: $cor-principal;
+    }
+}
