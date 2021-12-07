@@ -13,6 +13,7 @@ body {
 
 .nav-item {
     margin: 0 20px;
+    font-family: 'Rajdhani';
 }
 
 .img-fluid {
@@ -29,31 +30,6 @@ body {
 main {
     display: block;
     background-color: white;
-}
-
-.container {
-    width: 100%;
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-section.module p {
-    margin-bottom: 40px;
-}
-
-section.module:last-child {
-    margin-bottom: 0;
-}
-
-section.module h2 {
-    margin-bottom: 40px;
-    font-size: 30px;
-}
-
-section.module.content {
-    padding: 40px 0;
-    background: #ece7d5;
 }
 
 section.module.parallax {
@@ -76,9 +52,24 @@ section.module.parallax:after{
     width: 100%;
     position: absolute;
     z-index: 8;
-    background: linear-gradient(to bottom, rgba(33,37,41,0) 0, rgba(33,37,41,0)40%, #212529 100%);
+    background: linear-gradient(to bottom, rgba(33,37,41,0) 0, rgba(33,37,41,0)35%, #212529 100%);
 }
 
 section.module.parallax-1 {
     background-image: url("https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg");
+}
+
+section.module h1 {
+    font-family: 'Rajdhani';
+    font-weight: 700;
+    text-align: center;
+    color: #f9f6fc;
+}
+
+section.module p {
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    text-align: center;
+    color: #f9f6fc;
+    font-size: 30px;
 }
