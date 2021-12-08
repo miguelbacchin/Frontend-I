@@ -10,6 +10,44 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
+      <div class="container mt-5">
+      <button class="btn btn-dark" type="buton" data-bs-target="#myModal" data-bs-toggle="modal">Login</button>
+              
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-light"></div>
+                      <h5 class="modal-title">First Modal</h5>
+                      <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    <div class="modal-body">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primmary" type="button"data-bs-toggle="modal" data-bs-target="#secondModal" data-bs-dismiss="modal">Submit</button>
+                      <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-dark" type="buton" data-bs-target="#myModal" data-bs-toggle="modal">Login</button>
+              
+              <div class="modal" id="secondModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header alert-alert-success"></div>
+                      <h5 class="modal-title">Second Modal</h5>
+                      <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    <div class="modal-body">
+                      <p>Message received</p>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
         <section id="facilities">
             <div class="container">
               <div class="row">
