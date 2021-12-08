@@ -53,12 +53,6 @@ body {
     padding: 20px
 }
 
-/* .regua {
-    display:block;
-    padding:0;
-    margin: 10px 0;
-    width:30%;
-    height:2px;
-    background: linear-gradient(45deg, #991eeb, #5822b4, #991eeb);
-    align-self: center;
-} */
+.card-img-top {
+    max-width: 100%;
+}
