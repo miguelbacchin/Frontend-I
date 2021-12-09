@@ -53,7 +53,19 @@ section.module.parallax-1 {
     padding: 20px
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56%;
+    height: 0;
+}
 
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 50%;
+    height: 50%;
+}
 
 
 
